@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
   <main>
     <Navbar/>
-  <div className="hero min-h-screen bg-gradient-to-b from-base-100 to-slate-800">
+  <div className="hero min-h-screen bg-base-100">
   <div className="hero-content flex-col lg:flex-row-reverse">
     <div>
       <h1 className="text-5xl font-extrabold">Hello,</h1>

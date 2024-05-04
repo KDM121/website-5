@@ -1,0 +1,11 @@
+services:
+  app:
+    image: node:20.12.2-alpine3.19
+    command: sh -c "yarn install && yarn run dev"
+    ports:
+      - 3001:3000
+    working_dir: /app
+    volumes:
+      - ./:/app
+    environment:
+      NEXT_PUBLIC_VERCEL_URL: http://localhost:3000
