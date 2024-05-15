@@ -36,13 +36,15 @@ export default function Home() {
             </div>
             <div className="grid lg:grid-cols-3 gap-6 mx-auto justify-center">
               <div className="card w-96 bg-primary shadow-xl border-8 border border-secondary">
-                <figure className="px-10 pt-10">
-                  <img
-                    src="projects.png"
-                    alt="Project Image"
-                    className="rounded-xl"
-                  />
-                </figure>
+                <a href="/projects">
+                  <figure className="px-10 pt-10">
+                    <img
+                      src="projects.png"
+                      alt="Project Image"
+                      className="rounded-xl"
+                    />
+                  </figure>
+                </a>
                 <div className="card-body items-center text-center">
                   <h2 className="card-title">Projects</h2>
                   <p>A dashboard for the projects that i run in my homelab</p>
@@ -57,13 +59,15 @@ export default function Home() {
                 </div>
               </div>
               <div className="card w-96 bg-primary shadow-xl border-8 border border-secondary">
-                <figure className="px-10 pt-10">
-                  <img
-                    src="documents.png"
-                    alt="Document Image"
-                    className="rounded-xl"
-                  />
-                </figure>
+                <a href="https://docs.kieranmcdonnell.com">
+                  <figure className="px-10 pt-10">
+                    <img
+                      src="documents.png"
+                      alt="Document Image"
+                      className="rounded-xl"
+                    />
+                  </figure>
+                </a>
                 <div className="card-body items-center text-center">
                   <h2 className="card-title">Documents</h2>
                   <p>
@@ -82,13 +86,15 @@ export default function Home() {
                 </div>
               </div>
               <div className="card w-96 bg-primary shadow-xl border-8 border border-secondary">
-                <figure className="px-10 pt-10">
-                  <img
-                    src="support.png"
-                    alt="Support Image"
-                    className="rounded-xl"
-                  />
-                </figure>
+                <a href="/support">
+                  <figure className="px-10 pt-10">
+                    <img
+                      src="support.png"
+                      alt="Support Image"
+                      className="rounded-xl"
+                    />
+                  </figure>
+                </a>
                 <div className="card-body items-center text-center">
                   <h2 className="card-title">Support</h2>
                   <p>Go here to download the agent to get remote support</p>
